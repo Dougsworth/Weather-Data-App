@@ -7,13 +7,11 @@ Installation
 
 To run this application, you'll need Python 3.x and the Flask library installed on your machine. You can install Flask using pip:
 
-sh
-Copy code
+
 pip install Flask
 Once Flask is installed, you can run the app using the following command:
 
-sh
-Copy code
+
 python app.py
 This will start the Flask development server and the app will be accessible at http://localhost:5000.
 
