@@ -44,5 +44,4 @@ params={
 }
 You can also customize the app's appearance by modifying the CSS file (static/style.css).
 
-License
 
