@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather Data</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <div class="card">
+      <p>Timestamp (Jamaica time): {{ timestamp }}</p>
+    </div>
+    <div class="card">
+      <p>Air temperature (°C): {{ temperature }}</p>
+    </div>
+    <div class="card">
+      <p>Air pressure (hPa): {{ pressure }}</p>
+    </div>
+    <div class="card">
+      <p>Precipitation (kg/m²/h = mm/h): {{ precipitation }}</p>
+    </div>
+    <div class="card">
+      <p>Current time (local): {{ current_time }}</p>
+    </div>
+  </body>
+</html>
