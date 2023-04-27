@@ -1,5 +1,5 @@
 
-#Weather Data App
+# Weather Data App
 
 This is a simple web application that displays weather data for Kingston, Jamaica. The application uses the Stormglass API to retrieve data on air temperature, pressure, and precipitation. The data is then displayed in real-time on a web page using Flask and Jinja templates. The application also includes a CSS file to style the page and make it look more presentable.
 
